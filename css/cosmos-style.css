@@ -12,11 +12,11 @@ img {
     max-width: 100%;
 }
 
-/*-- introduction to page --*/
-
 .container { 
 	width: 100% margin: 0 auto; 
 }
+
+/*-- introduction to page --*/
 
 .section-intro {
 	background: url(../img/stars-bg-web.png);
@@ -25,7 +25,7 @@ img {
 	width: 100%;
 	padding: 5% 0 5% 0;
 }
-.section-intro h2 {
+.section-intro h1 {
 	font-size: 2em; 
 	font-family: 'Nunito', sans-serif; 
 	color: #ffffff; 
@@ -38,7 +38,7 @@ img {
 .section-intro p { 
 	color: #ffffff; 
 	font-size: .9em; 
-	font-family: 'Karla', Arial, sans-serif; 
+	font-family: 'Karla', sans-serif; 
 	margin: 1.1% auto 0% auto; 
 	max-width: 60%;
 	text-align: center; 
@@ -51,7 +51,47 @@ img {
 .section-intro a:hover { 
 	color:#fae896; 
 	text-decoration:none;}
-		
+
+
+/*-- what we do --*/
+
+.section-whatwedo {
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.section-whatwedo .wrapper {
+	margin: 3% auto 0% 21%; 
+}
+
+.section-whatwedo .double {
+	display:inline-block;
+	vertical-align: top;
+	margin: 5% 3% 3% 2%;
+	width: 30%;
+}
+
+.section-whatwedo h1 {
+	font-size: 2em;
+	font-family: 'Nunito', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 5% auto 3% auto;
+	text-align: left; 
+}
+
+.section-whatwedo p { 
+	color: #0d152b; 
+	font-size: 1em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.6em;
+	margin: 2% auto 3% auto;
+	text-align: left; 
+}
+
+.section-whatwedo .spacer {
+	padding: 11% 0 0 0;
+}
 
 @media only screen and (max-width: 980px) {
 

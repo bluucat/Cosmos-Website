@@ -2,4 +2,4 @@
 cosmos for the webs
 
 
-http://github.com/bluucat/Cosmos-Website/
+http://bluucat.github.com/Cosmos-Website/

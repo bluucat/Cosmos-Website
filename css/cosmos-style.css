@@ -24,6 +24,7 @@ img {
 	background-repeat: repeat;
 	width: 100%;
 	padding: 5% 0 5% 0;
+	overflow: hidden;
 }
 
 .section-intro h1 {
@@ -134,6 +135,62 @@ img {
 	padding: 11% 0 0 0;
 }
 
+/*-- team --*/
+
+.section-team {
+	background-color: #ffffff;
+	width: 100%;
+}
+
+.section-team .wrapper {
+	margin: 3% auto 0% 20%; 
+}
+
+.section-team .triple {
+	display:inline-block;
+	vertical-align: top;
+	margin: auto 3% 3% 2%;
+	width: 20%;
+}
+
+.section-team h1 {
+	font-size: 2em;
+	font-family: 'Nunito', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: auto auto auto auto;
+	text-align: center; 
+}
+
+.section-team h2 {
+	font-size: 1.1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #203668;
+	letter-spacing: .1em;
+	margin: 8% auto 7% auto;
+	text-align: center; 
+}
+
+.section-team p { 
+	color: #0d152b; 
+	font-size: .9em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.4em;
+	margin: 7% auto 3% auto;
+	text-align: center; 
+}
+
+.section-team .spacer {
+	padding: 11% 0 0 0;
+}
+
+.section-team .line {
+	width: 20%;
+	border: 3px solid #ffcc67;
+	margin: 0 0 0 38%;
+}
 
 @media only screen and (max-width: 1250px) {
 

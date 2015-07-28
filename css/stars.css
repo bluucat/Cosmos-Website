@@ -1,3 +1,7 @@
+#stars-container {
+    max-height: 20%;
+}
+
 #stars {
     width: 1px;
     height: 1px;
@@ -9,8 +13,7 @@
 
 #stars:after {
     content: " ";
-    position: absolute;
-    top: 2000px;
+    position: relative;
     width: 1px;
     height: 1px;
     background: transparent;
@@ -29,8 +32,7 @@
 
 #stars2:after {
     content: " ";
-    position: absolute;
-    top: 2000px;
+    position: relative;
     width: 3px;
     height: 3px;
     border-radius: 100%;
@@ -50,8 +52,7 @@
 
 #stars3:after {
     content: " ";
-    position: absolute;
-    top: 2000px;
+    position: relative;
     width: 3px;
     height: 3px;
     background: transparent;
@@ -64,7 +65,7 @@
     }
 
     to {
-        -webkit-transform: translateY(-2000px);
+        -webkit-transform: translateY(-1000px);
     };
 }
 
@@ -74,6 +75,6 @@
     }
 
     to {
-        transform: translateY(-2000px);
+        transform: translateY(-1000px);
     };
 }

@@ -143,7 +143,7 @@ img {
 }
 
 .section-team .wrapper {
-	margin: 3% auto 0% 20%; 
+	margin: 3% auto 8% 20%; 
 }
 
 .section-team .triple {
@@ -175,9 +175,9 @@ img {
 
 .section-team p { 
 	color: #0d152b; 
-	font-size: .9em; 
+	font-size: 1em; 
 	font-family: 'Karla', sans-serif; 
-	line-height: 1.4em;
+	line-height: 1.6em;
 	margin: 7% auto 3% auto;
 	text-align: center; 
 }
@@ -190,6 +190,43 @@ img {
 	width: 20%;
 	border: 3px solid #ffcc67;
 	margin: 0 0 0 38%;
+}
+
+
+/*-- footer--*/
+
+.section-footer {
+	background-color: #0d152b;
+	background-repeat: repeat;
+	width: 100%;
+	padding: 5% 0 5% 0;
+	overflow: hidden;
+}
+
+.section-footer .wrapper {
+	margin: auto auto auto 20%; 
+}
+
+.section-footer p { 
+	color: #fff; 
+	font-size: 1em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.6em;
+	margin: auto;
+	text-align: left; 
+}
+
+.section-footer .double {
+	display:inline-block;
+	vertical-align: top;
+	margin: auto 3% auto 2%;
+	width: 20%;
+}
+
+.section-footer i { 
+	color: #fff; 
+	font-size: 2.5em; 
+	margin: auto .5% auto .5%;
 }
 
 @media only screen and (max-width: 1250px) {

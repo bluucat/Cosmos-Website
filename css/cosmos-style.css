@@ -29,7 +29,7 @@ img {
 
 .section-intro h1 {
 	font-size: 2em; 
-	font-family: 'Nunito', sans-serif; 
+	font-family: 'Varela Round', sans-serif; 
 	color: #ffffff; 
 	letter-spacing: .1em;
 	text-align: center;
@@ -62,7 +62,7 @@ img {
 }
 
 .section-whatwedo .wrapper {
-	margin: 3% auto 0% 21%; 
+	margin: 3% auto 6% 21%; 
 }
 
 .section-whatwedo .double {
@@ -74,7 +74,7 @@ img {
 
 .section-whatwedo h1 {
 	font-size: 2em;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	color: #e85233;
 	letter-spacing: .1em;
 	margin: 5% auto 3% auto;
@@ -94,17 +94,75 @@ img {
 	padding: 11% 0 0 0;
 }
 
+/* easy to use */
+
+.section-easytouse {
+	background-color: #bddad8;
+	width: 100%;
+}
+
+.section-easytouse .wrapper {
+	margin: 3% auto auto 3%; 
+}
+
+.section-easytouse .four {
+	display:inline-block;
+	vertical-align: top;
+	margin: auto 1% 1% 2%;
+	width: 20%;
+}
+
+.section-easytouse h1 {
+	font-size: 2em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	letter-spacing: .1em;
+	margin: auto;
+	padding-top: 5%;
+	text-align: center; 
+}
+
+.section-easytouse h2 {
+	font-size: 1.1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #203668;
+	letter-spacing: .1em;
+	margin: 3% auto 3% auto;
+	text-align: center; 
+}
+
+.section-easytouse p { 
+	color: #0d152b; 
+	font-size: 1em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.6em;
+	margin: 2% auto auto auto;
+	text-align: center; 
+}
+
+.section-easytouse .spacer {
+	padding: 6% 0 0 0;
+}
+
+.section-easytouse .line {
+	width: 20%;
+	border: 3px solid #ffcc67;
+	margin: 0 0 0 38%;
+}
+
 
 /*-- how to get it --*/
 
 .section-howtoget {
 	background-color: #e85233;
-	margin: 7% auto 7% auto;
+	margin: auto auto 7% auto;
 	width: 100%;
 }
 
 .section-howtoget .wrapper {
-	margin: 3% auto 0% 21%; 
+	margin: auto auto 0% 21%; 
 	width: 60%;
 	padding: 7% 0 7% 0;
 }
@@ -115,7 +173,7 @@ img {
 
 .section-howtoget h1 {
 	font-size: 2em;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	color: #ffffff;
 	letter-spacing: .1em;
 	margin: 5% auto 3% auto;
@@ -155,7 +213,7 @@ img {
 
 .section-team h1 {
 	font-size: 2em;
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Varela Round', sans-serif;
 	color: #e85233;
 	letter-spacing: .1em;
 	margin: auto auto auto auto;
@@ -245,7 +303,7 @@ img {
 
 .section-intro h2 {
 	font-size: 1.5em; 
-	font-family: 'Nunito', sans-serif; 
+	font-family: 'Varela Round', sans-serif; 
 	letter-spacing: .1em;
 	text-align: center;
 	max-width: 90%; 
@@ -293,7 +351,7 @@ img {
 
 .section-intro h2 {
 	font-size: 1.3em; 
-	font-family: 'Nunito', sans-serif; 
+	font-family: 'Varela Round', sans-serif; 
 	letter-spacing: .1em;
 	text-align: center;
 	max-width: 80%; 
@@ -340,7 +398,7 @@ img {
 
 .section-intro h2 {
 	font-size: .9em; 
-	font-family: 'Nunito', sans-serif; 
+	font-family: 'Varela Round', sans-serif; 
 	letter-spacing: .1em;
 	text-align: center;
 	max-width: 70%; 

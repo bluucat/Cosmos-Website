@@ -19,7 +19,6 @@ img {
 /*-- introduction to page --*/
 
 .section-intro {
-	background: url(../img/stars-bg-web.png);
 	background-color: #203668;
 	background-repeat: repeat;
 	width: 100%;
@@ -204,11 +203,11 @@ img {
 	margin: 3% auto 8% 20%; 
 }
 
-.section-team .triple {
+.section-team .double {
 	display:inline-block;
 	vertical-align: top;
 	margin: auto 3% 3% 2%;
-	width: 20%;
+	width: 30%;
 }
 
 .section-team h1 {

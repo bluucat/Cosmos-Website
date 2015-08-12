@@ -343,9 +343,9 @@ a:active {
 .section-whatwedo .double {
 	display: inline-block;
 	vertical-align: top;
-	margin: 3% auto 10% 2%;
+	margin: 3% auto 10% 4%;
 	padding-right: 2%;
-	width: 40%;
+	width: 37%;
 }
 
 .section-whatwedo .spacer {
@@ -355,6 +355,15 @@ a:active {
 .section-whatwedo img {
 	padding: 30% auto auto auto;
 	max-height: 60%;
+}
+
+.section-whatwedo h1 {
+	font-size: 1.8em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 5% auto 3% auto;
+	text-align: left; 
 }
 
 }
@@ -403,6 +412,16 @@ a:active {
 .section-whatwedo img {
 	padding-top: 8%;
 }
+
+.section-whatwedo h1 {
+	font-size: 1.7em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 4% auto 5% auto;
+	text-align: left; 
+}
+
 }
 
 
@@ -435,6 +454,15 @@ a:active {
 
 /*-- what we do --*/
 
+.section-whatwedo h1 {
+	font-size: 1.6em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 5% auto 3% auto;
+	text-align: left; 
+}
+
 .section-whatwedo p {
 	font-size: .95em;
 	line-height: 1.5em;
@@ -460,6 +488,9 @@ a:active {
 
 .section-whatwedo img {
 	padding: 8% auto auto auto;
+	margin-left: 10%;
+	max-width: 50%;
+	display: none;
 }
 
 }
@@ -491,6 +522,15 @@ a:active {
 
 
 /*-- what we do --*/
+
+.section-whatwedo h1 {
+	font-size: 1.4em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 5% auto 3% auto;
+	text-align: left; 
+}
 
 .section-whatwedo p {
 	font-size: .95em;

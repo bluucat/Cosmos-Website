@@ -12,6 +12,27 @@ img {
     max-width: 100%;
 }
 
+a {
+	color: #e85233;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+	color: #ffcc67;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 .container { 
 	width: 100% margin: 0 auto; 
 }
@@ -22,7 +43,7 @@ img {
 	background-color: #203668;
 	background-repeat: repeat;
 	width: 100%;
-	padding: 5% 0 5% 0;
+	padding: 5% 0 6% 0;
 	overflow: hidden;
 }
 
@@ -122,11 +143,11 @@ img {
 }
 
 .section-easytouse h2 {
-	font-size: 1.1em;
+	font-size: 1.5em;
 	font-family: 'Karla', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: #203668;
+	color: #FFFFFF;
 	letter-spacing: .1em;
 	margin: 3% auto 3% auto;
 	text-align: center; 
@@ -206,8 +227,18 @@ img {
 .section-team .double {
 	display:inline-block;
 	vertical-align: top;
+<<<<<<< HEAD
 	margin: auto 3% 3% 2%;
 	width: 30%;
+=======
+	margin: auto 3% 3% 5%;
+	width: 25%;
+}
+
+.section-team img {
+	max-width: 80%;
+	margin-left: 10%;
+>>>>>>> master
 }
 
 .section-team h1 {
@@ -292,7 +323,7 @@ img {
 
 .section-intro {
 	width: 100%;
-	padding: 8% 0 10% 0;
+	padding: 8% 0 8% 0;
 }
 
 .section-intro p { 
@@ -300,7 +331,7 @@ img {
 	text-align: center; 
 }
 
-.section-intro h2 {
+.section-intro h1 {
 	font-size: 1.5em; 
 	font-family: 'Varela Round', sans-serif; 
 	letter-spacing: .1em;
@@ -317,9 +348,9 @@ img {
 .section-whatwedo .double {
 	display: inline-block;
 	vertical-align: top;
-	margin: 3% auto 10% 2%;
+	margin: 3% auto 10% 4%;
 	padding-right: 2%;
-	width: 40%;
+	width: 37%;
 }
 
 .section-whatwedo .spacer {
@@ -330,6 +361,61 @@ img {
 	padding: 30% auto auto auto;
 	max-height: 60%;
 }
+
+.section-whatwedo h1 {
+	font-size: 1.8em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 5% auto 3% auto;
+	text-align: left; 
+}
+
+/*-- easy to use --*/
+
+.section-easytouse .wrapper {
+	margin: 3% 4% auto auto; 
+}
+
+.section-easytouse .four {
+	display: inline-block;
+	vertical-align: top;
+	margin: auto auto 2% 6%;
+	width: 18%;
+}
+
+.section-easytouse h1 {
+	font-size: 1.6em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	letter-spacing: .1em;
+	line-height: 1.3em;
+	margin: auto auto 5% auto;
+	padding-top: 9%;
+	text-align: center; 
+	max-width: 80%;
+}
+
+.section-easytouse h2 {
+	font-size: 1.1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: .1em;
+	margin: 3% auto 3% auto;
+	text-align: center; 
+}
+
+.section-easytouse p { 
+	color: #0d152b; 
+	font-size: .95em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.5em;
+	margin: 2% auto auto auto;
+	text-align: center; 
+}
+
 
 }
 
@@ -348,13 +434,13 @@ img {
 	text-align: center; 
 }
 
-.section-intro h2 {
-	font-size: 1.3em; 
+.section-intro h1 {
+	font-size: 1.1em; 
 	font-family: 'Varela Round', sans-serif; 
 	letter-spacing: .1em;
 	text-align: center;
-	max-width: 80%; 
-	margin-left: 5%;}	
+	max-width: 85%; 
+	margin: auto auto 2% 8%;}	
 
 /*-- what we do --*/
 
@@ -377,11 +463,182 @@ img {
 .section-whatwedo img {
 	padding-top: 8%;
 }
+
+.section-whatwedo h1 {
+	font-size: 1.7em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 4% auto 5% auto;
+	text-align: left; 
+}
+
+/*-- easy to use --*/
+
+.section-easytouse .wrapper {
+	margin: 3% 4% auto auto; 
+}
+
+.section-easytouse .four {
+	display: inline-block;
+	vertical-align: top;
+	margin: auto auto 2% 6%;
+	width: 18%;
+}
+
+.section-easytouse h1 {
+	font-size: 1.6em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	letter-spacing: .1em;
+	line-height: 1.3em;
+	margin: auto auto 5% auto;
+	padding-top: 9%;
+	text-align: center; 
+	max-width: 80%;
+}
+
+.section-easytouse h2 {
+	font-size: 1.1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: .1em;
+	margin: 3% auto 3% auto;
+	text-align: center; 
+}
+
+.section-easytouse p { 
+	color: #0d152b; 
+	font-size: .95em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.5em;
+	margin: 2% auto auto auto;
+	text-align: center; 
+}
+
 }
 
 
 
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 700px) {
+
+/*-- intro --*/
+
+.section-intro {
+	width: 100%;
+	padding: 15% 0 10% 0;
+}
+
+.section-intro p { 
+	max-width: 70%;
+	text-align: center; 
+}
+
+.section-intro h1 {
+	font-size: 1.1em; 
+	font-family: 'Varela Round', sans-serif; 
+	letter-spacing: .1em;
+	text-align: center;
+	max-width: 70%; 
+	margin-left: 10%;
+	padding: 4% 3% 0 3%;
+}
+
+
+/*-- what we do --*/
+
+.section-whatwedo h1 {
+	font-size: 1.6em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 5% auto 3% auto;
+	text-align: left; 
+}
+
+.section-whatwedo p {
+	font-size: .95em;
+	line-height: 1.5em;
+	margin: 2% auto 3% auto;
+	text-align: left; 
+}
+
+.section-whatwedo .wrapper {
+	margin: 10% auto 1% 8%; 
+}
+
+.section-whatwedo .double {
+	display: block;
+	vertical-align: top;
+	margin: 3% 3% 10% 3%;
+	padding-right: 0%;
+	width: 90%;
+}
+
+.section-whatwedo .spacer {
+	padding: 1% 0 0 0;
+}
+
+.section-whatwedo img {
+	padding: 8% auto auto auto;
+	margin-left: 10%;
+	max-width: 50%;
+	display: none;
+}
+
+/*-- easy to use --*/
+
+.section-easytouse .wrapper {
+	margin: 3% auto auto 7%; 
+}
+
+.section-easytouse .four {
+	display: inline-block;
+	vertical-align: top;
+	margin: auto 1% 8% 8%;
+	width: 35%;
+}
+
+.section-easytouse h1 {
+	font-size: 1.6em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	letter-spacing: .1em;
+	line-height: 1.3em;
+	margin: auto auto 10% auto;
+	padding-top: 9%;
+	text-align: center; 
+	max-width: 80%;
+}
+
+.section-easytouse h2 {
+	font-size: 1.1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: .1em;
+	margin: 3% auto 3% auto;
+	text-align: center; 
+}
+
+.section-easytouse p { 
+	color: #0d152b; 
+	font-size: .95em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.5em;
+	margin: 2% auto auto auto;
+	text-align: center; 
+}
+
+
+}
+
+
+@media only screen and (max-width: 500px) {
 
 /*-- intro --*/
 
@@ -395,18 +652,27 @@ img {
 	text-align: center; 
 }
 
-.section-intro h2 {
+.section-intro h1 {
 	font-size: .9em; 
 	font-family: 'Varela Round', sans-serif; 
 	letter-spacing: .1em;
 	text-align: center;
 	max-width: 70%; 
-	margin-left: 10%;
-	padding: 0 3% 0 3%;
+	margin-left: 12%;
+	padding: 4% 3% 0 3%;
 }
 
 
 /*-- what we do --*/
+
+.section-whatwedo h1 {
+	font-size: 1.4em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 5% auto 3% auto;
+	text-align: left; 
+}
 
 .section-whatwedo p {
 	font-size: .95em;
@@ -434,5 +700,52 @@ img {
 .section-whatwedo img {
 	padding: 8% auto auto auto;
 }
+
+
+/* easy to use */
+
+.section-easytouse .wrapper {
+	margin: 3% auto auto 7%; 
+}
+
+.section-easytouse .four {
+	display: inline-block;
+	vertical-align: top;
+	margin: auto 1% 8% 8%;
+	width: 35%;
+}
+
+.section-easytouse h1 {
+	font-size: 1.4em;
+	font-family: 'Varela Round', sans-serif;
+	color: #fff;
+	letter-spacing: .1em;
+	line-height: 1.3em;
+	margin: auto auto 10% auto;
+	padding-top: 9%;
+	text-align: center; 
+	max-width: 80%;
+}
+
+.section-easytouse h2 {
+	font-size: 1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	letter-spacing: .1em;
+	margin: 3% auto 3% auto;
+	text-align: center; 
+}
+
+.section-easytouse p { 
+	color: #0d152b; 
+	font-size: .95em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.6em;
+	margin: 2% auto auto auto;
+	text-align: center; 
+}
+
 
 }

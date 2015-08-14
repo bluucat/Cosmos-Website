@@ -232,10 +232,8 @@ a:active {
 .section-team .double {
 	display:inline-block;
 	vertical-align: top;
-<<<<<<< HEAD
 	margin: auto 3% 3% 2%;
 	width: 30%;
-=======
 	margin: auto 3% 3% 5%;
 	width: 25%;
 }
@@ -243,7 +241,6 @@ a:active {
 .section-team img {
 	max-width: 80%;
 	margin-left: 10%;
->>>>>>> master
 }
 
 .section-team h1 {

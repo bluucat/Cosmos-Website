@@ -121,6 +121,11 @@ a:active {
 	width: 100%;
 }
 
+.section-easytouse img {
+	max-height: 400px;
+	margin: 2% auto 7% 15%;
+}
+
 .section-easytouse .wrapper {
 	margin: 3% auto auto 3%; 
 }
@@ -137,7 +142,7 @@ a:active {
 	font-family: 'Varela Round', sans-serif;
 	color: #fff;
 	letter-spacing: .1em;
-	margin: auto;
+	margin: auto auto 5% auto;
 	padding-top: 5%;
 	text-align: center; 
 }
@@ -367,6 +372,11 @@ a:active {
 }
 
 /*-- easy to use --*/
+
+.section-easytouse img {
+	max-height: 400px;
+	margin: auto auto 11% auto;
+}
 
 .section-easytouse .wrapper {
 	margin: 3% 4% auto auto; 

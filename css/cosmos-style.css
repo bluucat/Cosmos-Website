@@ -232,8 +232,6 @@ a:active {
 .section-team .double {
 	display:inline-block;
 	vertical-align: top;
-	margin: auto 3% 3% 2%;
-	width: 30%;
 	margin: auto 3% 3% 5%;
 	width: 25%;
 }

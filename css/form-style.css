@@ -294,8 +294,56 @@ input:focus::-ms-input-placeholder {
 	}
 }
 
-@media screen and (max-width: 25em) {
-	.nl-form {
-		font-size: 1em;
-	}
+@media screen and (max-width: 700px) {
+
+	/* general style for the form */
+.nl-form {
+	font-family: 'Karla', sans-serif;
+	color: #ffffff;
+	width: 100%;
+	margin: 10% auto 0 auto;
+	font-size: 1.3em;
+	line-height: 1.5;
+}
+
+	/* toggle styling */
+
+.nl-field-toggle,
+.nl-form input,
+.nl-form select  {
+	padding: 10% 10% 10% auto;
+	margin: 5% 1% 5% auto;
+	width: 100%;
+	font-size: 1.3em;
+	line-height: inherit;
+	display: inline-block;
+	color: #b14943;
+}
+
+.nl-form button {
+	border: none;
+	background: transparent;
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	display: inline-block;
+	padding: 10% 0 0 0;
+	margin: 0;
+	width: 100%;
+}
+
+.nl-form .nl-submit {
+	line-height: 3;
+	text-transform: uppercase;
+	cursor: pointer;
+	background: #76C3BD;
+	color: #fff;
+	padding: 0 2% 0 1%;
+	font-size: 100%;
+	font-weight: bold;
+	letter-spacing: .2em;
+}
+
 }

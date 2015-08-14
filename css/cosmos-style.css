@@ -327,7 +327,7 @@ a:active {
 }
 
 .section-intro h1 {
-	font-size: 1.5em; 
+	font-size: 1.6em; 
 	font-family: 'Varela Round', sans-serif; 
 	letter-spacing: .1em;
 	text-align: center;
@@ -358,7 +358,7 @@ a:active {
 }
 
 .section-whatwedo h1 {
-	font-size: 1.8em;
+	font-size: 1.6em;
 	font-family: 'Varela Round', sans-serif;
 	color: #e85233;
 	letter-spacing: .1em;
@@ -411,6 +411,70 @@ a:active {
 	text-align: center; 
 }
 
+/*HOW DO I GET IT*/
+
+.section-howtoget h1 {
+	font-size: 1.6em;
+	text-align: left; 
+}
+
+/* TEAM */
+
+.section-team .wrapper {
+	margin: 3% 8% 5% 14%; 
+}
+
+.section-team .double {
+	display: inline-block;
+	vertical-align: top;
+	margin: auto 3% 5% 5%;
+	width: 35%;
+}
+
+.section-team img {
+	max-width: 80%;
+	margin-left: 10%;
+}
+
+.section-team h1 {
+	font-size: 1.6em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 2% auto 5% auto;
+	text-align: center; 
+}
+
+.section-team h2 {
+	font-size: 1.1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #203668;
+	letter-spacing: .1em;
+	margin: 8% auto 7% auto;
+	text-align: center; 
+}
+
+.section-team p { 
+	color: #0d152b; 
+	font-size: .95em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.6em;
+	margin: 7% auto 3% auto;
+	text-align: center; 
+}
+
+.section-team .spacer {
+	padding: 11% 0 0 0;
+}
+
+.section-team .line {
+	width: 20%;
+	border: 3px solid #ffcc67;
+	margin: 0 0 0 38%;
+}
+
 
 }
 
@@ -460,7 +524,7 @@ a:active {
 }
 
 .section-whatwedo h1 {
-	font-size: 1.7em;
+	font-size: 1.6em;
 	font-family: 'Varela Round', sans-serif;
 	color: #e85233;
 	letter-spacing: .1em;
@@ -511,6 +575,84 @@ a:active {
 	line-height: 1.5em;
 	margin: 2% auto auto auto;
 	text-align: center; 
+}
+
+/*-- how to get it --*/
+
+
+.section-howtoget h1 {
+	font-size: 1.6em;
+	text-align: left; 
+}
+
+.section-howtoget p { 
+	color: #fff; 
+	font-size: .95em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.5em;
+	margin: 2% auto 3% auto;
+	text-align: left; 
+}
+
+.section-howtoget .spacer {
+	padding: 11% 0 0 0;
+}
+
+/*-- team --*/
+
+.section-team .wrapper {
+	margin: 3% 10% 8% 10%; 
+}
+
+.section-team .double {
+	display: inline-block;
+	vertical-align: top;
+	margin: auto 3% 8% 5%;
+	width: 40%;
+}
+
+.section-team img {
+	max-width: 80%;
+	margin-left: 10%;
+}
+
+.section-team h1 {
+	font-size: 1.6em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 10% auto 8% auto;
+	text-align: center; 
+}
+
+.section-team h2 {
+	font-size: 1.1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #203668;
+	letter-spacing: .1em;
+	margin: 8% auto 7% auto;
+	text-align: center; 
+}
+
+.section-team p { 
+	color: #0d152b; 
+	font-size: .95em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.6em;
+	margin: 7% auto 3% auto;
+	text-align: center; 
+}
+
+.section-team .spacer {
+	padding: 11% 0 0 0;
+}
+
+.section-team .line {
+	width: 20%;
+	border: 3px solid #ffcc67;
+	margin: 0 0 0 38%;
 }
 
 }
@@ -629,6 +771,63 @@ a:active {
 	text-align: center; 
 }
 
+
+
+/*-- team --*/
+
+.section-team .wrapper {
+	margin: 3% auto 10% 15%; 
+}
+
+.section-team .double {
+	display: block;
+	margin: auto 3% 20% 5%;
+	width: 70%;
+}
+
+.section-team img {
+	max-width: 80%;
+	margin-left: 10%;
+}
+
+.section-team h1 {
+	font-size: 1.6em;
+	font-family: 'Varela Round', sans-serif;
+	color: #e85233;
+	letter-spacing: .1em;
+	margin: 10% auto 15% auto;
+	text-align: center; 
+}
+
+.section-team h2 {
+	font-size: 1.1em;
+	font-family: 'Karla', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #203668;
+	letter-spacing: .1em;
+	margin: 8% auto 7% auto;
+	text-align: center; 
+}
+
+.section-team p { 
+	color: #0d152b; 
+	font-size: .95em; 
+	font-family: 'Karla', sans-serif; 
+	line-height: 1.6em;
+	margin: 7% auto 3% auto;
+	text-align: center; 
+}
+
+.section-team .spacer {
+	padding: 11% 0 0 0;
+}
+
+.section-team .line {
+	width: 20%;
+	border: 3px solid #ffcc67;
+	margin: 0 0 0 38%;
+}
 
 }
 
@@ -753,7 +952,7 @@ a:active {
 .section-howtoget .wrapper {
 	margin: auto auto 0% 21%; 
 	width: 60%;
-	padding: 7% 0 10% 0;
+	padding: 9% 0 11% 0;
 }
 
 .section-howtoget .horizonalspacer {
@@ -781,5 +980,6 @@ a:active {
 .section-howtoget .spacer {
 	padding: 11% 0 0 0;
 }
+
 
 }
